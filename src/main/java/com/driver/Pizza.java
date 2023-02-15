@@ -60,7 +60,7 @@ public class Pizza {
 
     public String getBill(){
         // your code goes here
-        if(isBillCreated) {
+        if(!isBillCreated) {
             if (isExtraCheeseAdded) {
                 this.bill += "Extra Cheese Added: 80" + "\n";
             }
@@ -70,8 +70,9 @@ public class Pizza {
             if (isTakeAway) {
                 this.bill += "Paperbag Added: 20" + "\n";
             }
-            this.bill += "Total price" + this.price;
+            this.bill += "Total Price: " + this.price;
             isBillCreated = true;
+
         }
         return this.bill;
     }
