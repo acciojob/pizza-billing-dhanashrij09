@@ -22,10 +22,10 @@ public class Pizza {
             this.price = 400;
             this.toppings = 120;
         }
-        this.isExtraCheeseAdded = false;
-        this.isExtraToppingAdded = false;
-        this.isBillCreated = false;
-        this.isTakeAway = false;
+        //this.isExtraCheeseAdded = false;
+        //this.isExtraToppingAdded = false;
+        //this.isBillCreated = false;
+       // this.isTakeAway = false;
 
         this.bill = "Base Price Of The Pizza: " + this.price + "\n";
     }
